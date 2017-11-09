@@ -1,0 +1,24 @@
+{
+    "name": "peip/constract.console",
+    "description": "Interfaces for PEIP console apps",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Timo Michna",
+            "email": "timomichna@yahoo.de"
+        }
+    ],
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.8"
+    },
+    "scripts": {
+        "fixer" : "php-cs-fixer",
+        "cs": [
+            "@composer install",
+            "@fixer fix ./src"
+        ],
+        "clearCache": "rm -rf cache/*"
+    }
+}
