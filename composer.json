@@ -1,5 +1,5 @@
 {
-    "name": "peip/constract.console",
+    "name": "peip/contract.console",
     "description": "Interfaces for PEIP console apps",
     "type": "library",
     "license": "MIT",
