@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "PEIP\\Contract\\Console": "src"
+            "PEIP\\Contract\\Console\\": "src"
         }
     },
     "scripts": {
